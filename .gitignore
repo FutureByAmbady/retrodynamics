@@ -1,0 +1,10 @@
+# Local revision snapshots are not part of the deployable site
+/backups/
+
+# Keep local secrets and machine-specific files out of Git
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
